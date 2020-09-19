@@ -136,3 +136,95 @@ git clone https://github.com/lucasbotellaroca/command_line_test.git
 ls
 cd command_line_test
 cp ~/.history ./
+ll
+ls -la
+git add .history
+git commit -m "first 5h of master"
+git add .history
+git status
+git commit -m "first 5h of master"
+ll
+cp ~/.history History
+ls -l
+ls -la
+git push
+cd
+mkdir first_dir
+cd first_dir
+cat > text_file.txt
+ls
+cd first_di
+cd first_dir
+ls
+cat text_file.txt
+ls -la
+chmod g+x, o+x
+chmod g+x, o+x text_file.txt
+chmod --help
+ls -la
+chmod 373 text_file.txt
+ls -la
+mod text_file.txt
+chmod 373 text_file.txt
+ls -la
+chmod 777 text_file.txt
+ls -la
+chmod 373 text_file.txt
+ls -la
+chmod 676 text_file.txt
+ls -la
+mkdir sub1
+mkdir sub2
+mkdir text_file
+cp text_file.txt sub1
+ls 
+cd sub1
+ls
+cd ..
+cp text_file.txt sub2 text_file.txt.2
+ls
+chmod 776 text_file.txt
+ls -la
+cd sub1
+chmod 776 text_file.txt
+ls -la
+cd ..
+cp text_file.txt sub2/text_file.txt.2
+ls
+cd sub2
+ls
+cd ..
+cp sub1 sub3
+ls
+cp -r sub1 sub3
+ls
+sub3
+cd sub3
+ls
+cd ..
+cd sub1
+ls
+cd ..
+mv first_dir /sub2/text_file.txt.2 first_dir /sub2/text_file.txt.backup
+mv first_dir/sub2/text_file.txt.2 first_dir/sub2/text_file.txt.backup
+ls
+cd sub2
+ls
+cd ..
+mv first_dir/sub2/text_file.txt.2 first_dir/sub2/text_file.txt.backup
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls
+cd sub2
+ls
+cd ..
+mv sub2/text_file.txt.backup ./.first_dir
+ls -la
+ls -la sub2
+rm -rf  sub2
+ls
+cd Repos
+cd ..
+cd Repos
+ls
+cd command_line_test
+cp ~/.history .
