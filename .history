@@ -1,0 +1,138 @@
+pwd
+ls
+ls -la
+echo $SHELL
+ls
+echo $SHELL
+echo $TERM
+whoami
+echo $HOME
+echo 'hola'
+echo $1==1
+echo $USER
+clear
+date
+fecha = date
+echo "hoy es el dia `date`"
+cd Dat/shell
+cd Data/shell
+cat Text_example.txt
+cd ..
+ls -l
+clear
+git
+git clone https://www.github.com/IgorAramb/DS_CL_files.git
+ls
+cd DS_CL_files
+ls -l
+cat README.md
+rm README.md
+git reset HEAD --hard
+man
+man ls
+ls --help
+gitconfig--global user.name 'Lucas Botella'
+git config --global user.name 'Lucas Botella'
+git config --global user.email 'Lucas Botella'
+git config --global user.email 'lucasbotellaroca@gmail.com'
+cd ..
+ls
+git clone https://github.com/lucasbotellaroca/master-kschool.git
+ls
+cd master-kschool
+touch nuevoarchivo
+touch nuevoarchivo2
+ls
+rm README.md
+git status
+git add nuevoarchivo2
+git status
+git commit -m 'Implement a random forest'
+git status
+git push
+git config --global user.name "Lucas Botella" 
+git config --global user.email "lucasbotellaroca@gmail.com"
+ls -l
+cat .gitconfig
+ls -la
+cat .gitconfig
+ls
+mkdir Repos
+ls
+cd Repos
+git clone https://www.github.com/lucasbotellaroca/master-kschool.git
+cd ..
+ls
+ll
+cd Repos
+ll
+git init Master_class_local_start
+ll
+git init otro_dir_name
+ll
+cd 
+cd Repos
+cd Master_class_local_start
+git status
+ls -la
+cat .git
+cd Repos
+cd ..
+ls -la
+cd ..
+cd Repos
+ls -LA
+cd master-kschool
+cd ..
+cd otro_dir_name
+cd ..
+cd Master_class_local_start/
+cd ..
+cd Master_class_local_start/
+git status
+touch first_file.txt
+touch second_file
+gedit first_file.txt
+cat first_file
+cat first_file.txt
+git add first_file.txt
+git status
+git add second_file
+git status
+git commit -m "first commit"
+git status
+git log
+gedit first_file.txt
+git status 
+git add -u
+git status
+git commit
+cd Repos
+ls
+cd Master_class_lcal_start
+cd Master_class_local_start
+git status
+git commit
+git log
+git commit -m "hola"
+git status
+ls
+gedit second_file
+git status
+git commit -m "new upate"
+gid add second_file
+git add second_file
+git commit -m "new update"
+git status
+git log
+git remote add origin https://github.com/lucasbotellaroca/Local_init.git
+git branch -M master
+git push -u origin master
+cat .history
+ cd $home
+cat .history
+cd Repos
+git clone https://github.com/lucasbotellaroca/command_line_test.git
+ls
+cd command_line_test
+cp ~/.history ./
