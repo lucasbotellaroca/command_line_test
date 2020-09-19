@@ -228,3 +228,79 @@ cd Repos
 ls
 cd command_line_test
 cp ~/.history .
+git add -u
+git commit -m "quick exercise --> $(date)"
+cd
+cd Repos/command_line_test
+alias gc = 'git commit -m'
+alias gc='git commit -m'
+ls -la
+cd 
+ls -la
+cat .zshrc
+which ll
+sudo which python
+which python
+where is python
+whereis python
+cd Data/shell
+ls
+head -5 Text_example.txt | wc
+head -5 Text_example.txt | wc -w
+head -5 Finn.txt | wc -w
+tail -20 ~/.history > last_20_commands
+cat last_20_commands
+cat "#This file is created by $USER on:$(date)"
+cat "#This file is created by $USER on:$(date)" > new_file
+echo "#This file is created by $USER on:$(date)"
+echo "#This file is created by $USER on:$(date)" > new_file
+new_file
+ls
+cat new_file
+find
+find .
+find -maxdepth 5 -type f -name "text_file*" -exec ls -l {} \; 
+find -maxdepth 5 -type f -iname "text_file*" -exec ls -l {} \; 
+find -maxdepth 5 -type f -iname "text_example*" -exec ls -l {} \; 
+find -maxdepth 5 -type f -name "text_example*" -exec ls -l {} \; 
+find -maxdepth 5 -type f -iname "text_example*"; 
+find -maxdepth 5 -type f -name "text_example*" -exec ls -l {} \; 
+find -maxdepth 5 -type f -iname "text_example*" -exec ls -l {} \; 
+ls -l Text_example.txt
+cd
+find . -mmin 60
+find . -size 0K 
+find . -size 0
+find . -size 0 -exec  
+find . -empty
+find . -type f -mmin -60
+find . -type f -empty ! -perm 777
+cd Data
+ls | sort -S
+ls | sort
+find . -type f -exec ls -l | sort {} \; -exec head -3 {} \;
+find . -type f -exec ls | sort {} \; -exec head -3 {} \;
+find . -type f -exec ls {} | sort \; -exec head -3 {} \;
+find . -type f -exec ls {} \; -exec | sort {} \; -exec head -3 {} \;
+ls -S
+ls -l
+ls -S
+ls
+find . -type f -exex ls -S {} \; -exec tail -3 {} \;
+find . -type f -exec ls -S {} \; -exec tail -3 {} \;
+find . -type f -exec ls -lS {} \; -exec head -3 {} \;
+find . -type f -exec ls -lS {} \; -exec head -3 \;
+find . -mindepth 1 -type d 
+cd Data
+find . -mindepth 1 -type d 
+find . -mindepth 1 -type d -exec echo {} \;  -exec ls -S {} \;
+cd ../Repos
+ls
+cd command_line_test/
+cp ~/.history .
+git add
+git add -u
+git status
+git push
+ls
+cp ~/.history .
